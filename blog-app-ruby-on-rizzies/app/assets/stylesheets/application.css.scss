@@ -12,9 +12,11 @@
  *
  *= require_tree .
  *= require_self
+
  */
 
  @import 'normalize';
+
 
  html, body {
  	font-family: 'Raleway', sans-serif;
@@ -129,6 +131,10 @@
  			.button {
  				font-size: .8em;
  				margin-left: .5em;
+        .fa-plus:hover{
+          color:red;
+
+        }
  			}
  		}
  	}

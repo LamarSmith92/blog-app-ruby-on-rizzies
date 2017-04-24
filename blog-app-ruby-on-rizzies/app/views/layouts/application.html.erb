@@ -3,7 +3,7 @@
   <head>
     <title>BlogAppRubyOnRizzies</title>
     <%= csrf_meta_tags %>
-
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= stylesheet_link_tag 'application', 'http://fonts.googleapis.com/css?family=Raleway:400, 700' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -37,7 +37,7 @@
         <p>All Posts</p>
 
         <div class="buttons">
-          <button class="button"><%= link_to "New Post", new_post_path %></button>
+          <button class="button"><%= link_to "New Post", new_post_path %> 	&nbsp; <i class="fa fa-plus" aria-hidden="true"></i></button>
           <button class="button">Log Out</button>
         </div>
       </div>
