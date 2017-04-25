@@ -17,7 +17,6 @@
 
  @import 'normalize';
 
-
  html, body {
  	font-family: 'Raleway', sans-serif;
  }
@@ -41,12 +40,10 @@
  	padding: 7em 0 0 0;
  	border-right: 1px solid #d6dce0;
  	#logo {
- 		max-width: 15vw;
+ 		width: 40px;
  		position: absolute;
- 		right: 1em;
+ 		right: 5em;
  		top: 1em;
-
-
  	}
  	ul {
  		list-style: none;
@@ -127,10 +124,6 @@
  			.button {
  				font-size: .8em;
  				margin-left: .5em;
-        .fa-plus:hover{
-          color:red;
-
-        }
  			}
  		}
  	}
