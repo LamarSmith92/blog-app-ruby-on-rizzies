@@ -46,8 +46,10 @@
         <% if user_signed_in? %>
         <div class="buttons">
           <button class="button"><%= link_to "New Post", new_post_path %> 	&nbsp; <i class="fa fa-plus" aria-hidden="true"></i></button>
-          <button class="button">Log Out</button>
+          <button class="button" >  <%= link_to 'Logout', destroy_user_session_path, :method => :delete, data: {:confirm=>'Are you sure?'} %>     </button>
         </div>
+        <% else %>
+  				<%= link_to "Sign in", new_user_session_path %>
         <% end %>
       </div>
 
